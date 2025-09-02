@@ -28,6 +28,5 @@ replace (
     github.com/mycompany-internal/payment-gateway => ./libs/payment
     
     // This creates another path that scanner should follow
-    github.com/testcompany/shared-utils => ./shared/utils
     github.com/testcompany/api-gateway => ./services/api
 )
